@@ -16,9 +16,50 @@
         font-size: 62.5%
 }
 
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 body {
     font-family: var(--font-default);
 }
+
+.loader {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.spin {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 10px solid #d0d0d0;
+    border-top: 10px solid #000;
+    animation: spin 2s linear infinite;
+}
+
+.hiden {
+
+    display: none;
+}
+
+
+@keyframes spin { 
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 #hamburguer {
     position: fixed;
@@ -102,7 +143,15 @@ header::before {
 
 }
 
+@keyframes zoom {
 
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 h1,
 h2,
@@ -268,7 +317,7 @@ div {
 
 .card:hover .card-img-wrapper img {
     opacity: 0.5;
-    
+
     animation-name: animação;
     animation-duration: 10s;
     animation-delay: 0.1s;
@@ -318,7 +367,7 @@ div {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/Programa_web/aside/images/ddfe3fb0fc20fe058d6d1cacac0fd6ef.jpg);
+    background-image: url(./aside/images/orcamento.jpg);
     background-size: cover;
 }
 
@@ -375,11 +424,24 @@ input[type=number] {
         flex-direction: column;
     }
 
+    #secao-orcamento form {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
-@media(width < 768) {
+@media (width < 768px) {
 
-    #avatar {
-        display: none;
+    .only-large {
+            display: none;
+        }
+
+    p {
+        width: auto;
     }
+    
+    
+
+    
 }

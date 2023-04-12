@@ -1,120 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=H1, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="./loader.js"></script>
     <title> Demon Slayer </title>
 
 </head>
-<body>
 
-        <nav> 
+<body>
+    <div class="loader">
+        <div class="spin"></div>
+    </div>
+    <main class="hiden">
+        <nav>
             <div id="hamburguer">
                 <div class="linha" id="linha1"></div>
                 <div class="linha" id="linha2"></div>
                 <div class="linha" id="linha3"></div>
             </div>
 
-            <ul> 
+            <ul>
 
                 <li><a href="#home">
-                    <i class="fa-solid fa-house"></i>
-                    Home 
-                </a></li>
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a></li>
                 <li><a href="#secao-apresentacao">
                         <i class="fa-solid fa-user"></i>
                         Apresentação
-                </a></li>
+                    </a></li>
                 <li><a href="#secao-projetos">
                         <i class="fa-solid fa-code"></i>
                         Projetos
                     </a></li>
-                    <li><a href="#secao-orcamento">
-                            <i class="fa-solid fa-money-bill"></i>
-                            Orçamento
-                     </a></li>
+                <li><a href="#secao-orcamento">
+                        <i class="fa-solid fa-money-bill"></i>
+                        Orçamento
+                    </a></li>
             </ul>
-         </nav>
+        </nav>
 
 
         <header id="home">
             <b>
                 <i>
-                        <h1> DEMON SLAYER </h1>
+                    <h1> DEMON SLAYER </h1>
                 </i>
             </b>
-            
+
             <b>
                 <i>
-                    <span> Deivid Souza Silva </span>
+                    <span class="only-large"> Deivid Souza Silva </span>
                 </i>
             </b>
-        
-    <br>
-    <a href="#secao-apresentacao"class="botao">saiba mais</a>
+
+            <br>
+            <a href="#secao-apresentacao" class="botao">saiba mais</a>
         </header>
 
         <section id="secao-apresentacao">
-            <img id = "avatar" src="aside/images/Logo.jpg" alt="logo">
-        <div>
-        <i>
-            <h1> Demon Slayer </h1>
-        </i>
-        
-            <p> A história conta sobre um jovem que ganha a vida vendendo carvão até descobrir que sua família foi massacrada por um demônio, restando apenas sua irmã, Nezuko, que foi infectada e está se tornando um monstro. O protagonista, então, decide virar um caçador de demônios e buscar vingança.</p>
-            <a href="#" ></a>
-        </div>
+            <img id="avatar" class="only-large" src="aside/images/Logo.jpg" alt="logo">
+            <div>
+                <i>
+                    <h1> Demon Slayer </h1>
+                </i>
+
+                <p> A história conta sobre um jovem que ganha a vida vendendo carvão até descobrir que sua família foi
+                    massacrada por um demônio, restando apenas sua irmã, Nezuko, que foi infectada e está se tornando um
+                    monstro. O protagonista, então, decide virar um caçador de demônios e buscar vingança.</p>
+                <a href="#"></a>
+            </div>
         </section>
-        
+
         <section id="secao-projetos">
             <ul>
                 <li>
                     <div class="card">
-                    <!--  <div class ="card-img-wrapper">
+                        <!--  <div class ="card-img-wrapper">
                             <img src ="#">
                         trocar imagem depois-->
-                    <div class="card-img-wrapper">
-                        <img src="aside/images/Tanjiro.jpg" alt="imagem do projeto" />
+                        <div class="card-img-wrapper">
+                            <img src="aside/images/Tanjiro.jpg" alt="imagem do projeto" />
                         </div>
                         <div class="card-text">
-                        <h2>Tanjiro</h2>
-                    <h3></h3>
-                    <p>Ele é um membro de Kanoe dos Caçadores de Demônios, que se juntou a organização para caçar o responsável pelo assassinato de sua família e a transformação de sua irmã.</p>
-                    <a href="#" ></a>
-                    </div>
+                            <h2>Tanjiro</h2>
+                            <h3></h3>
+                            <p>Ele é um membro de Kanoe dos Caçadores de Demônios, que se juntou a organização para
+                                caçar o responsável pelo assassinato de sua família e a transformação de sua irmã.</p>
+                            <a href="#"></a>
+                        </div>
                     </div>
 
                 </li>
                 <li>
                     <div class="card">
                         <div class="card-img-wrapper">
-                            <img src="aside/images/zenistu.jpg" alt="imagem do projeto"/>
-                            </div>
-                            <div class="card-text">
-                    <h2>Zenitsu</h2>
-                    <h3></h3>
-                    <p>Zenitsu é um membro de Kanoe dos Caçadores de Demônios, Ele é um companheiro de viagem e amigo de Tanjiro Kamado, sendo um dos principais protagonistas do Demon Slayer.</p>
-                    <a href="#" ></a>
-                    </div>
+                            <img src="aside/images/zenistu.jpg" alt="imagem do projeto" />
+                        </div>
+                        <div class="card-text">
+                            <h2>Zenitsu</h2>
+                            <h3></h3>
+                            <p>Zenitsu é um membro de Kanoe dos Caçadores de Demônios, Ele é um companheiro de viagem e
+                                amigo de Tanjiro Kamado, sendo um dos principais protagonistas do Demon Slayer.</p>
+                            <a href="#"></a>
+                        </div>
                 </li>
                 <li>
                     <div class="card">
                         <div class="card-img-wrapper">
                             <img src="aside/images/Inosuke.jpg" alt="imagem de fundo" />
-                            </div>
-                            <div class="card-text">
-                    <h2>Inosuke</h2>
-                    <h3></h3>
-                    <p>Inosuke é um Caçador de Demônios, sendo um dos amigos e companheiro de viagem de Tanjiro Kamado e um dos principais protagonistas de Demon Slayer.</p>
-                    <a href="#" ></a>
+                        </div>
+                        <div class="card-text">
+                            <h2>Inosuke</h2>
+                            <h3></h3>
+                            <p>Inosuke é um Caçador de Demônios, sendo um dos amigos e companheiro de viagem de Tanjiro
+                                Kamado e um dos principais protagonistas de Demon Slayer.</p>
+                            <a href="#"></a>
                 </li>
             </ul>
         </section>
 
-        <section id ="secao-orcamento">
+        <section id="secao-orcamento">
             <form action="#">
                 <!-- para a resposta vai do form -->
                 <h3>Orcamento</h3>
@@ -129,22 +140,23 @@
                     <!-- a div aqui seria para agrupar os componetes de sim e não -->
                     <input type="radio" id="layout_sim" name="layout">
                     <label for="layout_sim">Sim, preciso</label>
-                    <input type="radio" id="layout_nao"name="layout">
+                    <input type="radio" id="layout_nao" name="layout">
                     <label for="layout_nao"> Não, já tenho um layout</label>
                 </div>
                 <label for="prazo">Prazo</label>
                 <input type="range" id="prazo" min="1" max="10">
                 <!-- input botão de nivel -->
                 <output>R$ 0,00</output>
-            
-        
+
+
             </form>
-    
+
 
         </section>
 
-        
-    </body>
-    <script src="./script.js"> </script>
-    <script src="./menu.js"></script>
-    </html>
+
+</body>
+<script src="./script.js"> </script>
+<script src="./menu.js"></script>
+
+</html>
