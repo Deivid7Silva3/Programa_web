@@ -441,7 +441,15 @@ input[type=number] {
         width: auto;
     }
     
-    
+    .secao-apresentacao {
+        width: auto;
+    }
 
-    
+    .secao-orcamento {
+        width: auto;
+    }
+
+    #secao-orcamento form{
+        width: auto;
+    }
 }
